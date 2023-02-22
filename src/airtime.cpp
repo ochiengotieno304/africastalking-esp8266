@@ -1,7 +1,7 @@
 #include "AfricasTalking.hpp"
 
 /**
- * Send Airtime using Africa, s Talking airtime API
+ * @brief Airtime using Africa, s Talking airtime API
  *
  * Inputs:
  *  - recipients : A url json array of recipients,

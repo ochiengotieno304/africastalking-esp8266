@@ -1,9 +1,9 @@
 #include "AfricasTalking.hpp"
 
 /**
- * Send sms, airtime, and initiate phone calls using AfricasTalking API
+ * @brief Send sms, airtime, and initiate phone calls using AfricasTalking API
+ *
  */
-
 
 WiFiClientSecure client;
 HTTPClient http;

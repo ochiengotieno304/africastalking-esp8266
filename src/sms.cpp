@@ -1,7 +1,7 @@
 #include "AfricasTalking.hpp"
 
 /**
- * Send messages using Africa,s Talking SMS API
+ * @brief Send messages using Africa,s Talking SMS API
  *
  * Inputs:
  *  - toNumber : Number to send the message to

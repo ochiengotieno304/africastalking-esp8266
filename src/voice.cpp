@@ -1,7 +1,7 @@
 #include "AfricasTalking.hpp"
 
 /**
- * Initiate phone calls using Africa,s Talking voice API
+ * @brief Initiate phone calls using Africa,s Talking voice API
  *
  * Inputs:
  *  - fromNumber : Your Africa’s Talking phone number (in international format i.e. +XXXYYYYYY)
