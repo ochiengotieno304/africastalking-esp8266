@@ -17,7 +17,7 @@ String AfricasTalking::getApiHost() {
   }
 }
 
-String AfricasTalking::request(const String& endpoint, const String& postData) {
+String AfricasTalking::request(const String& endpoint, const String& postData, const int& request) {
   if (username == "sandbox") {
     fingerprint = "89 93 25 73 B7 93 B8 6F 10 D1 CD DC 4E B7 53 E2 BB 4B 48 9B";
   } else {
@@ -29,7 +29,10 @@ String AfricasTalking::request(const String& endpoint, const String& postData) {
   http.addHeader("Accept", "application/json");
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
   http.addHeader("apiKey", apiKey);
-  http.POST(postData);
+  if (request == 1) {
+    http.POST(postData);
+  } else
+    http.GET();
   String payload = http.getString();
   http.end();
 

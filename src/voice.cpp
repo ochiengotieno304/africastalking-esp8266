@@ -16,7 +16,7 @@ bool AfricasTalking::voice(const String& fromNumber, const String& toNumber) {
 
   String postData = "to=" + urlencode(toNumber) + "&from=" + urlencode(fromNumber) + "&username=" + username;
 
-  String payload = request(url, postData);
+  String payload = request(url, postData, 1);
 
   if (payload.length() > 1) {
     Serial.println(payload);

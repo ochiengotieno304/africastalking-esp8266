@@ -23,7 +23,7 @@ bool AfricasTalking::airtime(const String recipients[]) {
   String finalRecipients = "[" + recipientsFormated + "]";
 
   String postData = "username=" + username + "&recipients=" + urlencode(finalRecipients);
-  String payload = request(url, postData);
+  String payload = request(url, postData, 1);
 
   if (payload.length() > 1) {
     Serial.println(payload);

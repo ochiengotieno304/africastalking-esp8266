@@ -22,14 +22,16 @@ public:
   bool sms(const String& toNumber, const String& fromNumber, const String& message);
   bool airtime(const String recipients[]);
   bool voice(const String& fromNumber, const String& toNumber);
+  String applicationData();
 
 private:
-  String request(const String& endpoint, const String& postData);
+  String request(const String& endpoint, const String& postData, const int& request);
   String getApiHost();
   String getSmsUrl();
   String getAirtimeUrl();
   String getVoiceUrl();
   String getVoiceHost();
+  String getApplicationDataUrl();
   // String getFingerprint();
   String apiKey;
   String username;
