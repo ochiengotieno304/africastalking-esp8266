@@ -76,7 +76,7 @@ In your .ino file:
   bool success = AT->voice(fromNumber, toNumber);
  ```
 
-- `toNumber`: message destination phone number `REQUIRED`
+- `toNumber`: call destination phone number `REQUIRED`
 - `fromNumber`: Africa's Talking provide phone number `REQUIRED`
 
 ## Development
