@@ -83,7 +83,7 @@ In your .ino file:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/ochiengotieno304/africastalking-esp8266>.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/ochiengotieno304/africastalking-esp8266/issues>.
 
 ## License
 
