@@ -1,4 +1,4 @@
-# Africa's Talking ESP8266 API Wrapper
+# Africa's Talking ESP8266 Library
 
 >
  Provides convenient access to the Africa's Talking API from esp8266 module written in C++.
