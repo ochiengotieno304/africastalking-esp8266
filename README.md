@@ -79,6 +79,11 @@ In your .ino file:
 - `toNumber`: call destination phone number `REQUIRED`
 - `fromNumber`: Africa's Talking provide phone number `REQUIRED`
 
+### Payments
+
+> **Note**
+> Implementing
+
 ## Development
 
 ## Contributing
