@@ -1,4 +1,4 @@
-# Africa's Talking ESP8266 API Wrapper
+# Africa's Talking ESP8266 Library
 
 >
  Provides convenient access to the Africa's Talking API from esp8266 module written in C++.
@@ -88,8 +88,8 @@ In your .ino file:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/ochiengotieno304/africastalking-esp8266>.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/ochiengotieno304/africastalking-esp8266/issues>.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The library is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
