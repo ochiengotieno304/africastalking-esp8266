@@ -81,7 +81,7 @@ In your .ino file:
 
 ### Payments
 
-> **Note**
+> **Note:**
 > Implementing
 
 ## Development
