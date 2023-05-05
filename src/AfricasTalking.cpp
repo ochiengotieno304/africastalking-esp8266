@@ -19,9 +19,9 @@ String AfricasTalking::getApiHost() {
 
 String AfricasTalking::request(const String& endpoint, const String& postData, const int& request) {
   if (username == "sandbox") {
-    fingerprint = "89 93 25 73 B7 93 B8 6F 10 D1 CD DC 4E B7 53 E2 BB 4B 48 9B";
+    fingerprint = "8A B3 F1 72 67 EC 90 97 14 60 1C 66 AC 5D E0 05 83 A9 AD EA";
   } else {
-    fingerprint = "AE 79 CC 5B 04 BA 30 8A 63 FB A3 DE 9D 08 8C F1 AC B6 69 E6";
+    fingerprint = "56 3F C1 7D AD 08 42 59 9C 76 D3 FA D7 66 3D CE 54 A3 E6 70";
   }
 
   client.setFingerprint(fingerprint);
