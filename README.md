@@ -18,6 +18,7 @@ Once you get the library, just 3 steps are required before you can use it:
 ### Install from the IDE
 
  In you Arduino IDE got to **Sketch > Include Library > Add .ZIP Library** and browse to find your .zip archive.
+ Alternatively, in the Arduino library manager search for AfricasTalking library
 
 ## Usage
 
